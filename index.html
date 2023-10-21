@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Loja Virtual</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="info-usuario">
+            <p> 
+                <strong class="nome">Crislaine Silva</strong> 
+                <br>
+                <small>Último login em: 07/10/2023 ás 10h50</small>
+            </p>
+        </div>
+        <nav class="opcao-menu">
+            <ul>
+                <li class="botao-inicio"><a href="#inicio"><i class="fa-solid fa-house-chimney"></i><strong>ÍNICIO</strong></a></li>
+                <li><a href="#clientes">Nossos clientes</a></li>
+                <li><a href="#pedidos">Pedidos</a></li>
+                <li><a href="#faleConosco">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="secao-inicial" id="inicio">
+            <div class="titulo-principal">
+            <h1><strong>Nova Coleção 2023</strong></h1>
+            <h2>Ganhe <strong>10%</strong> off na 1ª compra </h2>
+            </div>
+            <ol class="imagem-produtos">
+                <li>
+                    <figure>
+                        <img src="./img/sandalia01.png" alt="sandalia rosa e verde">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/sandalia02.png" alt="sandalia colorida">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/sandalia03.png" alt="sandalia salvador">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/sandalia04.png" alt="sandalia azul e branca">
+                    </figure>
+                </li>
+            </ol>
+            <a class="link-site" href="https://havaianas.com.br/" target="_blank">Clique aqui para conferir </a>
+        </section>
+        <section class="secao-cliente" id="clientes">
+            <h3 >Nossos clientes</h3>
+           <div class="cliente-comentarios">
+            <article class="comentario" >
+                <h4>Joana Leal</h4>
+                <h5>❤️❤️❤️❤️❤️ Avaliado em 05/10/2023</h5>
+                <p>Comprei um par de sandálias nesta loja virtual e estou super satisfeita com a minha compra! As sandálias são lindas, confortáveis e chegaram muito rápido. A qualidade do produto é excelente, e o preço foi muito justo. Com certeza, farei mais compras aqui no futuro. Recomendo!</p>
+        
+            </article>
+            <article class="comentario"  >
+                <h4>Mauricio Moraes</h4>
+                <h5>❤️❤️❤️🤍🤍 Avaliado em 06/10/2023</h5>
+                <p>Minha experiência de compra nesta loja virtual foi mediana. As sandálias que recebi eram bonitas, mas achei que a entrega demorou um pouco mais do que o esperado. Além disso, o tamanho das sandálias não correspondia exatamente ao que eu esperava, então tive que trocar por um número maior. O processo de troca foi razoável, mas esperava um pouco mais de agilidade. No geral, a loja tem potencial, mas há espaço para melhorias.</p>
+            </article>
+            <article class="comentario" >
+                <h4>Angelina Mota</h4>
+                <h5>❤️❤️❤️❤️❤️ Avaliado em 07/10/2023</h5>
+                <p>Fiquei muito impressionada com a qualidade das sandálias que comprei nesta loja virtual. Elas são lindas, confortáveis e parecem duráveis. Além disso, a entrega foi rápida, e o atendimento ao cliente foi excelente. Tive algumas dúvidas antes da compra e fui prontamente atendida por uma equipe prestativa. Estou muito feliz com minha compra e recomendo esta loja para todos que procuram sandálias de qualidade a preços justos.</p>
+            </article>
+      </div>
+
+        </section>
+        <section class="secao-pedidos" id="pedidos">
+            <h3>Meus pedidos</h3>
+            <table>
+                <thead>
+                   <tr>
+                    <th>ID</th>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Valor</th>                  
+                    <th>Data da compra</th>                                     
+                </tr>
+                
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>Sandalia Azul e Branca</td>
+                        <td>1</td>
+                        <td>R$ 20,00</td>
+                        <td>05/10/2023</td>
+
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>Sandalia Salvador</td>
+                        <td>1</td>
+                        <td>R$ 30,00</td>
+                        <td>10/10/2023</td>
+
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>Sandalia Rosa e Verde</td>
+                        <td>1</td>
+                        <td>R$ 50,00</td>
+                        <td>07/10/2023</td>
+
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>Sandalia Orgulho e Liberdade</td>
+                        <td>1</td>
+                        <td>R$ 40,00</td>
+                        <td>07/10/2023</td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="secao-faleconosco" id="faleConosco">
+            <h3>Fale conosco</h3>
+            <div class="formulario">
+                <form action="">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Digite o seu email">
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg" ></textarea>
+                <button  type="submit">Enviar</button>        
+                </form>
+        </div>
+
+
+            
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; Copyright | 2023 | Todos os direitos autorais reservados</p>
+    </footer>
+</body>
+</html>
