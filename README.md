@@ -17,7 +17,7 @@ Este projeto tem como objetivo consolidar e treinar os conceitos aprendidos no m
 - HTML
 - CSS
 
-# Confira o resultado
+## Confira o resultado
 
 - https://sualojinha.netlify.app/
 
